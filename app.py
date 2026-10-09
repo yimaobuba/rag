@@ -28,4 +28,4 @@ with gr.Blocks(title="高性价比人生指南 RAG") as demo:
     msg.submit(chat, [msg, chatbot], [msg, chatbot])
     clear.click(lambda: None, None, chatbot, queue=False)
 
-demo.launch(server_name="0.0.0.0", server_port=7861)
+demo.launch(server_name="0.0.0.0", server_port=7860)
